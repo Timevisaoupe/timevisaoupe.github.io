@@ -33,29 +33,38 @@
 - name: Mestrado
   members:
     - name: Luciana Machado Lins
-      image: /images/joao.jpg
+      image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html
     - name: Diego Roberto Roche Palacios
-      image: /images/joao.jpg
+      image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html
     - name: José Alejandro López Quel
-      image: /images/joao.jpg
+      image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html      
     - name: Nathália Regina Cauás da Silva
-      image: /images/joao.jpg
+      image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html      
     - name: Gabriel Lima Gonçalves da silva
-      image: /images/joao.jpg
+      image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html      
     - name: Gabriel Correia de Albuquerque
-      image: /images/joao.jpg
+      image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html      
   
 - name: Bacharelado
   members:
     - name: Jean Felipe Coelho Ferreira
-      image: /images/joao.jpg
+      image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html
+    - name: Igor Lucas Balbino da Silva 
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html
+    - name: Mário Stela Guerra
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html
+    - name: Juan Caio Marques de Lira
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html                       
 
 - name: Alumni
   members:
