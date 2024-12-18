@@ -34,6 +34,9 @@ Lista de publicações por membros do grupo de pesquisa:
         </div>
     </div>
 </div>
+<div id="bibtex_display">
+</div>
+
 
 <div id="bibtex_display">
 
