@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Time Visao
-permalink: /timevisao/
+title: Pesquisadores
+permalink: /pesquisadores/
 ---
 
 
-Falar aqui um pouco sobre o time visao....
+Listar aqui os pesquisadores
 
 
 

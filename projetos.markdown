@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Time Visao
-permalink: /timevisao/
+title: Projetos
+permalink: /projetos/
 ---
 
 
-Falar aqui um pouco sobre o time visao....
+Listar aqui os projetos do time
 
 
 
