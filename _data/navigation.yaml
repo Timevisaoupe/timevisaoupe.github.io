@@ -2,6 +2,8 @@
 main:
   - title: "Novidades"
     url: /
+  - title: "Time Visao"
+    url: /sobre/
   - title: "Projetos"
     url: /projetos/
   - title: "Publicacoes"
