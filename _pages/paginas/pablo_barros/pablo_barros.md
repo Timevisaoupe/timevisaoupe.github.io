@@ -3,9 +3,7 @@ title: Pablo Barros
 layout: single
 permalink: /paginas/pablo_barros/pablo_barros.html
 ---
-<div class="researcher-content">
 ![](/assets/images/pesquisadores/pablo_barros.jpg){: width="250" }
-</div>
 
 **E-mail**: pvab @ ecomp.poli.br
 
