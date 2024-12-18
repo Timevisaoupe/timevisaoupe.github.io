@@ -65,38 +65,7 @@ Lista de publicacoes:
         <div style="float:left;">
             <button type="button" class="btn btn-default" onclick="reset()">Reset</button>
         </div>
-        <div style="float:left;">
-            <select id="authorselectfirst" class="btn bibtex_search bibtex_author" style="border: 1px solid lightgrey;"
-                    extra="first" search="author" onchange="resetOtherFilters('authorselectfirst')">
-                <option value="">Search First Author</option>
-            </select>
-        </div>
-        <div style="float:left;">
-            <select id="authorselect" class="btn bibtex_search bibtex_author" style="border: 1px solid lightgrey;"
-                    search="author" onchange="resetOtherFilters('authorselect')">
-                <option value="">Search Author</option>
-            </select>
-        </div>
-        <div style="float:left;">
-            <select id="topicselect" class="btn
-							bibtex_search"
-                    style="border: 1px solid lightgrey;" search="topic">
-              <option value="">Search Topic</option>
-              <!-- Add topic values here -->
-        	      <option value="Finance">Finance</option>
-                <option value="Autonomy">Autonomy</option>
-                <option value="Symbiotic">Symbiotic Autonomy</option>
-                <option value="CoBot|Episodic|Service|Insights|Model-Instance|Diverse">CoBot</option>
-                <option value="Learning">Learning</option>
-                <option value="Multiagent">Multiagent Systems</option>
-                <option value="Multi-robot|Multirobot|soccer|Multiagent">Multirobot Systems</option>
-                <option value="Planning">Planning</option>
-                <option value="Robot">Autonomous Robots</option>
-                <option value="Localization">Robot Localization</option>
-                <option value="Soccer|Multi-robot">Robot Soccer</option>
-                <option value="Vision">Vision</option>
-            </select>
-        </div>
+                        
         <div style="float:left;">
             <input type="text" class="bibtex_search form-control" id="searchbar" placeholder="Search publications">
             <span class="help-block">Examples: robot soccer, CoBot, Finance, journal 2015, ICAPS</span>
@@ -149,11 +118,6 @@ Lista de publicacoes:
                        aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
                         [bib]
                     </a>
-                </div>
-                <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                    <div class="well">
-                        <pre><span class="bibtexraw noread"></span></pre>
-                    </div>
                 </div>
                 <div style="display:none"><span class="bibtextype"></span></div>
                 <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
