@@ -5,9 +5,9 @@ date:   2024-12-18 17:34:01 +0100
 categories: jekyll update
 ---
 
-assets/images/sobre/06.jpg
 
-!["Time Visao no Lacoro"](/assets/images/pesquisadores/pablo_barros.jpg)
+
+!["Time Visao no Lacoro"](/assets/images/sobre/06.jpg)
 
 É com grande orgulho que anunciamos que 10 dos nossos brilhantes alunos do Time Visão tiveram a incrível oportunidade de apresentar seus trabalhos de pesquisa no prestigiado Latin American Summer School in Robotics (LACORO 2024), realizado em Rancagua, Chile. Durante o evento, participaram de workshops e tutoriais intensivos, além de assistirem a palestras ministradas por alguns dos mais renomados pesquisadores nas áreas de robótica, cognição computacional e machine learning.
 

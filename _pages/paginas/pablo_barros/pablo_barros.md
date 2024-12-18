@@ -7,17 +7,17 @@ permalink: /paginas/pablo_barros/pablo_barros.html
 
 **E-mail**: pvab @ ecomp.poli.br
 
-**LinkedIn**: [Profile](https://www.linkedin.com/in/pablo-barros-6a4a3b31/)
+**LinkedIn**: [Profile](https://www.linkedin.com/in/pablo-barros-6a4a3b31/){:target="_blank"} 
 
-**Lattes**: [Curriculum](http://lattes.cnpq.br/7344629947673971)
+**Lattes**: [Curriculum](http://lattes.cnpq.br/7344629947673971){:target="_blank"} 
 
-**Google Scholar**: [Publications](https://scholar.google.com/citations?user=LU9tpkMAAAAJ&hl=pt-BR)
+**Google Scholar**: [Publications](https://scholar.google.com/citations?user=LU9tpkMAAAAJ&hl=pt-BR){:target="_blank"} 
 
 ## Projects
 
 ### Chef`s Hat: Ambiente de Interacao Social Baseada em Jogos
   *Data*: 2019 - Atualmente
-    [Website do projeto](https://github.com/pablovin/ChefsHatGYM)
+    [Website do projeto](https://github.com/pablovin/ChefsHatGYM){:target="_blank"} 
     
     Descricao do projeto
 
