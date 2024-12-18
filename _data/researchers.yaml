@@ -1,0 +1,61 @@
+- name: Lideres do Grupo
+  members:
+    - name: Bruno Jose Torres Fernandes
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html
+
+  - name: Leandro Honorato
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html
+
+  - name: Pablo Barros
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html
+
+- name: Bacharelado
+  members:
+    - name: Jean Felipe Coelho Ferreira
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html
+
+- name: Mestrado
+  members:
+    - name: Luciana Machado Lins
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html
+
+    - name: Diego Roberto Roche Palacios
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html
+
+    - name: José Alejandro López Quel
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html      
+
+    - name: Nathália Regina Cauás da Silva
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html      
+
+    - name: Gabriel Lima Gonçalves da silva
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html      
+
+    - name: Gabriel Correia de Albuquerque
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html      
+
+- name: Doutorado
+  members:
+    - name: João Vinícius Ribeiro de Andrade
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html    
+
+    - name: Agostinho Antônio Freire Júnior
+      image: /images/joao.jpg
+      url: /paginas/jean_felipe_ferreira.html    
+
+
+- name: Alumni
+  members:
+    - name: Roberto Oliveira
+      image: /images/roberto.jpg
