@@ -63,7 +63,7 @@ Lista de publicacoes:
 
 <div class="bibtex_structure">
     <div class="group year" extra="ASC number">
-        <br\><a href="#top" style="display: inline"><em>(Top of the page)</em></a>
+        <a href="#top" style="display: inline"><em>(Top of the page)</em></a>
         <div style="padding-bottom:10px;"></div>
         <div class="sort journal" extra="DESC string">
             <div class="templates"></div>
@@ -101,19 +101,9 @@ Lista de publicacoes:
                     <span class="if pages"> pages <span class="pages"></span>,</span>
                     <span class="if month"><span class="month"></span>,</span>
                     <span class="if year"><span class="year"></span>.</span>
-                    <span class="if note"><span class="note"></span>.</span>
-                    <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+"
-                       aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                        [bib]
-                    </a>
+                    <span class="if note"><span class="note"></span>.</span>                
                 </div>
-                <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                    <div class="well">
-                        <pre><span class="bibtexraw noread"></span></pre>
-                    </div>
-                </div>
-                <div style="display:none"><span class="bibtextype"></span></div>
-                <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
+
             </li>
         </ul>
     </div>
