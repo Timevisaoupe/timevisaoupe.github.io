@@ -9,10 +9,6 @@ permalink: /publicacoes/
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
 <style>
-	    html,body,span,h1 {
-	    	font-family: "Times New Roman", Times, serif;
-	    	font-size: 17px;
-	    }
 	    bibtex { display: none; }
 	    .searchbar { margin-left:0px;}
 	    #bibtex_errors { margin-top:10px; color: red;}

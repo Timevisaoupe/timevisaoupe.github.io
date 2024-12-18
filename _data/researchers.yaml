@@ -10,11 +10,25 @@
       image: /assets/images/pesquisadores/pablo_barros.jpg
       url: /paginas/pablo_barros/pablo_barros.html
 
-- name: Bacharelado
+
+- name: Doutorado
   members:
-    - name: Jean Felipe Coelho Ferreira
-      image: /images/joao.jpg
-      url: /paginas/jean_felipe_ferreira.html
+    - name: João Vinícius Ribeiro de Andrade
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html    
+    - name: Agostinho Antônio Freire Júnior
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html  
+    - name: Angel Ayala Maldonado
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html        
+    - name: André Luiz da Silva Xavier
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html    
+    - name: Monique Suellen de Lima s Silva Tomaz
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html    
+
 
 - name: Mestrado
   members:
@@ -36,15 +50,12 @@
     - name: Gabriel Correia de Albuquerque
       image: /images/joao.jpg
       url: /paginas/jean_felipe_ferreira.html      
-
-- name: Doutorado
+  
+- name: Bacharelado
   members:
-    - name: João Vinícius Ribeiro de Andrade
+    - name: Jean Felipe Coelho Ferreira
       image: /images/joao.jpg
-      url: /paginas/jean_felipe_ferreira.html    
-    - name: Agostinho Antônio Freire Júnior
-      image: /images/joao.jpg
-      url: /paginas/jean_felipe_ferreira.html    
+      url: /paginas/jean_felipe_ferreira.html
 
 - name: Alumni
   members:
