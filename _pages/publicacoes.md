@@ -4,4 +4,12 @@ layout: single
 permalink: /publicacoes/
 ---
 
-Listar aqui todas as publicacoes
+<style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+
+</style>
+
+<bibtex src="/assets/bibs/pablo_barros.bib"></bibtex>
+
+
+<div id="bibtex_display"></div>
