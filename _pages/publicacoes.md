@@ -42,8 +42,8 @@ Lista de publicações por membros do grupo de pesquisa:
             </a>
       </span>
                 
-            <span class="title"></span>,
-      </span>
+            <b> <span class="title"></span> </b>,
+      
                 <div class="if author">
                     <span class="author"></span>
                 </div>
