@@ -1,4 +1,4 @@
-<p>---
+---
 title: Sobre
 layout: single
 permalink: /sobre/
