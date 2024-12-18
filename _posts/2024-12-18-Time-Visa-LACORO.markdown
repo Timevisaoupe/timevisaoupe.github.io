@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Time Visao ganha premios no LACORO 2024!"
-date:   2024-12-18 16:34:01 +0100
+date:   2024-12-18 17:34:01 +0100
 categories: jekyll update
 ---
 
