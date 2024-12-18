@@ -12,6 +12,7 @@ permalink: /sobre/
 }
 </style>
 
+<div style="text-align: justify">
 
 <img src="/assets/images/sobre/01.jpg" class="image-left" alt="Descriptive alt text">
 Fundado no início da década de 2010 na Universidade de Pernambuco, Brasil, o Time Visão nasceu com uma missão audaciosa: trazer a vanguarda da pesquisa em visão computacional para o coração de Pernambuco. A ideia inicial era simples, mas potente — transformar a região em um polo de conhecimento avançado, capaz de rivalizar com centros internacionais de pesquisa em tecnologia.
@@ -36,3 +37,4 @@ Esse esforço conjunto não apenas enriqueceu o ambiente acadêmico, mas também
 <img src="/assets/images/sobre/06.jpg" class="image-left" alt="Descriptive alt text">
 Atualmente, com uma equipe vibrante de estudantes de graduação, mestrado, doutorado e pesquisadores pós-docs, o Time Visão não apenas propõe, mas também gerencia projetos que estão na fronteira do conhecimento. Nosso objetivo é continuar a ser um catalisador para a inovação, preparando o caminho para que as próximas gerações transformem o impossível em realidade. Unidos pela paixão em expandir os horizontes da tecnologia, seguimos comprometidos em desenvolver soluções que impactem positivamente a sociedade e o mundo.
 
+</div>
