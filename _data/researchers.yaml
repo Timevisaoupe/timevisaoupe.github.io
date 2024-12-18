@@ -64,7 +64,10 @@
       url: /paginas/jean_felipe_ferreira.html
     - name: Juan Caio Marques de Lira
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html                       
+      url: /paginas/jean_felipe_ferreira.html
+    - name: JHenrique Sávio Silva Pacheco
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/jean_felipe_ferreira.html                               
 
 - name: Alumni
   members:
