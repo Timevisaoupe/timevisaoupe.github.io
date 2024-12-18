@@ -22,7 +22,7 @@ Lista de publicações por membros do grupo de pesquisa:
 
 
 <div class="bibtex_structure">
-    <div class="group year" extra="ASC number">
+    <div class="group year" extra="DESC number">
         <a href="#top" style="display: inline"><em>(Top of the page)</em></a>
         <div style="padding-bottom:10px;"></div>
         <div class="sort journal" extra="ASC string">
@@ -33,5 +33,19 @@ Lista de publicações por membros do grupo de pesquisa:
 
 
 <div id="bibtex_display">
+<div class="bibtex_template">
+  <div class="if author" style="font-weight: bold;">
+    <span class="if year">
+      <span class="year"></span>, 
+    </span>
+    <span class="author"></span>
+    <span class="if url" style="margin-left: 20px">
+      <a class="url" style="color:black; font-size:10px">(view online)</a>
+    </span>
+  </div>
+  <div style="margin-left: 10px; margin-bottom:5px;">
+    <span class="title"></span>
+  </div>
+</div>
 </div>
 
