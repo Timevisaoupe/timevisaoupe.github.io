@@ -3,6 +3,7 @@ title: Pablo Barros
 layout: single
 permalink: /paginas/pablo_barros/pablo_barros.html
 ---
+<div class="researcher-content">
 
 ![](/assets/images/pesquisadores/pablo_barros.jpg)
 
@@ -25,3 +26,5 @@ permalink: /paginas/pablo_barros/pablo_barros.html
 ## Mais Informacoes
 
 Content added by the researcher as needed, such as a blog, image gallery, or recommendation letters.
+
+</div>

@@ -8,5 +8,16 @@ search: false
 $masthead-link-color: #06402b; 
 // $background-color: gray;
 
+.researcher-content img {
+    width: 20%;
+    height: auto; /* This maintains the aspect ratio of the image */
+}
+
+@media (max-width: 768px) {
+    .markdown-content img, .specific-page img {
+        width: 50%; /* Adjusts to a larger percentage on smaller screens */
+    }
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
