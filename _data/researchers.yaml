@@ -7,8 +7,8 @@
       image: /images/joao.jpg
       url: /paginas/jean_felipe_ferreira.html
     - name: Pablo Barros
-      image: /images/joao.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      image: /paginas/pablo_barros.jpg
+      url: /paginas/pablo_barros.html
 
 - name: Bacharelado
   members:
