@@ -36,7 +36,7 @@ permalink: /pesquisadores/
 
 <div class="researchers-container">
     {% for category in site.data.researchers %}
-    <h2>{{ category.name }}</h2>
+    <h2>{{ category.name }}</h2> 
     <div class="category-container">
         {% for researcher in category.members %}
         <div class="researcher">
