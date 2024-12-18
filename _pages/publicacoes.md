@@ -1,5 +1,5 @@
 ---
-title: Publicacoes
+title: Publicações 
 layout: single
 permalink: /publicacoes/
 ---
@@ -7,42 +7,6 @@ permalink: /publicacoes/
 <bibtex src="/assets/bibs/pablo_barros.bib"></bibtex>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
-
-
-<script>     
-		$(function() {
-		  $("#Fontselector").on("change",function() {
-		    var font = $("#Fontselector option:selected").text();
-		    console.log(font);
-
-		    $('.title.fonters').each(function() {
-		    	$(this).css("font-family",font);
-		    });
-		  });
-		});
-		function reset() {
-			$("select").each(function () {
-			  localStorage.setItem($(this).attr("id"),"");
-			  $(this).val("");
-			});
-			$("#searchbar").val("");
-			$("#searchbar").trigger('change');
-		}
-		function resetOtherFilters(changedId) {
-  $("select").each(function() {
-    if ($(this).attr("id") !== changedId) {
-      $(this).val("");
-    }
-  });
-  $("#searchbar").val("");
-}
-
-$("#authorselectfirst, #authorselect").on("change", function() {
-  resetOtherFilters($(this).attr("id"));
-  $(this).trigger('change');
-});
-
-</script>
 
 <style>
 	    html,body,span,h1 {
@@ -58,14 +22,14 @@ $("#authorselectfirst, #authorselect").on("change", function() {
 
 </style>
 
-Lista de publicacoes:
+Lista de publicações por membros do grupo de pesquisa:
 
 
 <div class="bibtex_structure">
     <div class="group year" extra="ASC number">
         <a href="#top" style="display: inline"><em>(Top of the page)</em></a>
         <div style="padding-bottom:10px;"></div>
-        <div class="sort journal" extra="DESC string">
+        <div class="sort journal" extra="ASC string">
             <div class="templates"></div>
         </div>
     </div>
