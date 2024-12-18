@@ -5,4 +5,5 @@
 title: Novidades
 layout: home
 permalink: /novidades/
+author_profile: false
 ---
