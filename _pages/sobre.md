@@ -1,5 +1,5 @@
 ---
-title: Sobre
+title: Time Visão
 layout: single
 permalink: /sobre/
 ---
