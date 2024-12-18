@@ -41,8 +41,7 @@ Lista de publicações por membros do grupo de pesquisa:
             <span style="text-decoration: underline;" class="title"></span>,
             </a>
       </span>
-
-                <span class="if title nolink">
+                
             <span class="title"></span>,
       </span>
                 <div class="if author">
