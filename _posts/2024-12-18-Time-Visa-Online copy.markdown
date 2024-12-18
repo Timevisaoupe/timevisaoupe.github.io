@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Time Visao online!"
 date:   2024-12-18 16:34:01 +0100
 categories: jekyll update
