@@ -1,6 +1,6 @@
 ---
 title: Sobre
-layout: wide
+layout: single
 permalink: /sobre/
 ---
 

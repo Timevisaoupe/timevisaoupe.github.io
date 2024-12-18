@@ -1,6 +1,6 @@
 ---
 title: Pesquisadores
-layout: wide
+layout: single
 permalink: /pesquisadores/
 ---
 

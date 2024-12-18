@@ -1,6 +1,6 @@
 ---
 title: Projetos
-layout: wide
+layout: single
 permalink: /projetos/
 ---
 
