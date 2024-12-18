@@ -6,7 +6,7 @@ permalink: /paginas/pablo_barros/pablo_barros.html
 
 # Pablo Barros
 
-!["Pablo Barros"](/assets/images/pesquisadores/pablo_barros.jpg)
+![](/assets/images/pesquisadores/pablo_barros.jpg)
 
 **E-mail**: pvab @ ecomp.poli.br
 
@@ -17,8 +17,9 @@ permalink: /paginas/pablo_barros/pablo_barros.html
 **Google Scholar**: [Publications](https://scholar.google.com/citations?user=LU9tpkMAAAAJ&hl=pt-BR)
 
 ## Projects
-  ### Chef`s Hat: Ambiente de Interacao Social Baseada em Jogos
-    *Data*:</strong> 2019 - Atualmente</p>
+
+### Chef`s Hat: Ambiente de Interacao Social Baseada em Jogos
+  *Data*: 2019 - Atualmente
     [Website do projeto](https://github.com/pablovin/ChefsHatGYM)
     
     Descricao do projeto
