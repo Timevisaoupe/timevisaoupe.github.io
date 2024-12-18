@@ -6,13 +6,12 @@ permalink: /publicacoes/
 
 <bibtex src="/assets/bibs/pablo_barros.bib"></bibtex>
 
-<script type="text/javascript" src="https://www.cs.cmu.edu/~mmv/bibtex_js_v2.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
 
-<script>    
-		(function() {
-		  ("#Fontselector").on("change",function() {
+<script     
+		$(function() {
+		  $("#Fontselector").on("change",function() {
 		    var font = $("#Fontselector option:selected").text();
 		    console.log(font);
 
@@ -30,12 +29,12 @@ permalink: /publicacoes/
 			$("#searchbar").trigger('change');
 		}
 		function resetOtherFilters(changedId) {
-  ("select").each(function() {
+  $("select").each(function() {
     if ($(this).attr("id") !== changedId) {
       $(this).val("");
     }
   });
-  ("#searchbar").val("");
+  $("#searchbar").val("");
 }
 
 $("#authorselectfirst, #authorselect").on("change", function() {
@@ -56,6 +55,7 @@ $("#authorselectfirst, #authorselect").on("change", function() {
 	    h1.header {margin-left:8px;}
 	    h1.YEAR { font-size: 17px; font-weight: bold; display: inline; margin-left:8px;}
 
+
 </style>
 
 Lista de publicacoes:
@@ -65,7 +65,38 @@ Lista de publicacoes:
         <div style="float:left;">
             <button type="button" class="btn btn-default" onclick="reset()">Reset</button>
         </div>
-                        
+        <div style="float:left;">
+            <select id="authorselectfirst" class="btn bibtex_search bibtex_author" style="border: 1px solid lightgrey;"
+                    extra="first" search="author" onchange="resetOtherFilters('authorselectfirst')">
+                <option value="">Search First Author</option>
+            </select>
+        </div>
+        <div style="float:left;">
+            <select id="authorselect" class="btn bibtex_search bibtex_author" style="border: 1px solid lightgrey;"
+                    search="author" onchange="resetOtherFilters('authorselect')">
+                <option value="">Search Author</option>
+            </select>
+        </div>
+        <div style="float:left;">
+            <select id="topicselect" class="btn
+							bibtex_search"
+                    style="border: 1px solid lightgrey;" search="topic">
+              <option value="">Search Topic</option>
+              <!-- Add topic values here -->
+        	      <option value="Finance">Finance</option>
+                <option value="Autonomy">Autonomy</option>
+                <option value="Symbiotic">Symbiotic Autonomy</option>
+                <option value="CoBot|Episodic|Service|Insights|Model-Instance|Diverse">CoBot</option>
+                <option value="Learning">Learning</option>
+                <option value="Multiagent">Multiagent Systems</option>
+                <option value="Multi-robot|Multirobot|soccer|Multiagent">Multirobot Systems</option>
+                <option value="Planning">Planning</option>
+                <option value="Robot">Autonomous Robots</option>
+                <option value="Localization">Robot Localization</option>
+                <option value="Soccer|Multi-robot">Robot Soccer</option>
+                <option value="Vision">Vision</option>
+            </select>
+        </div>
         <div style="float:left;">
             <input type="text" class="bibtex_search form-control" id="searchbar" placeholder="Search publications">
             <span class="help-block">Examples: robot soccer, CoBot, Finance, journal 2015, ICAPS</span>
@@ -118,6 +149,11 @@ Lista de publicacoes:
                        aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
                         [bib]
                     </a>
+                </div>
+                <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                    <div class="well">
+                        <pre><span class="bibtexraw noread"></span></pre>
+                    </div>
                 </div>
                 <div style="display:none"><span class="bibtextype"></span></div>
                 <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
