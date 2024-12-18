@@ -1,5 +1,6 @@
 ---
 title: Publicacoes
+layout: single
 permalink: /publicacoes/
 ---
 
