@@ -9,8 +9,7 @@ permalink: /publicacoes/
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
 
-<script 
-    <script>
+<script>    
 		$(function() {
 		  $("#Fontselector").on("change",function() {
 		    var font = $("#Fontselector option:selected").text();
