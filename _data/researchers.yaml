@@ -1,11 +1,11 @@
 - name: Lideres do Grupo
   members:
     - name: Bruno Jose Torres Fernandes
-      image: /images/joao.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/bruno_fernandes/bruno_fernandes.html
     - name: Leandro Honorato
-      image: /images/joao.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      image: /assets/images/pesquisadores/unknown.jpg
+      url: /paginas/leandro_honorato/leandro_honorato.html
     - name: Pablo Barros
       image: /assets/images/pesquisadores/pablo_barros.jpg
       url: /paginas/pablo_barros/pablo_barros.html
