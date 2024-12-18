@@ -28,7 +28,7 @@ twitter_username: Timevisaoupe
 github_username:  Timevisaoupe
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed 
 
