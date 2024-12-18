@@ -4,5 +4,5 @@
 
 title: Novidades
 layout: home
-permalink: /pesquisadores/
+permalink: /novidades/
 ---
