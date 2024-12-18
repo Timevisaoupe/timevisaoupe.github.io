@@ -106,7 +106,7 @@ author:
   links:    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/Timevisaoupe"
+      url: "https://github.com/Timevisaoupe"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/timevisaoupe/"
@@ -117,7 +117,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/Timevisaoupe"
+      url: "https://github.com/Timevisaoupe"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/timevisaoupe/"
