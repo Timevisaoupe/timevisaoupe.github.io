@@ -6,12 +6,13 @@ permalink: /publicacoes/
 
 <bibtex src="/assets/bibs/pablo_barros.bib"></bibtex>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+<script type="text/javascript" src="https://www.cs.cmu.edu/~mmv/bibtex_js_v2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 
 <script>    
-		$(function() {
-		  $("#Fontselector").on("change",function() {
+		(function() {
+		  ("#Fontselector").on("change",function() {
 		    var font = $("#Fontselector option:selected").text();
 		    console.log(font);
 
@@ -29,12 +30,12 @@ permalink: /publicacoes/
 			$("#searchbar").trigger('change');
 		}
 		function resetOtherFilters(changedId) {
-  $("select").each(function() {
+  ("select").each(function() {
     if ($(this).attr("id") !== changedId) {
       $(this).val("");
     }
   });
-  $("#searchbar").val("");
+  ("#searchbar").val("");
 }
 
 $("#authorselectfirst, #authorselect").on("change", function() {
