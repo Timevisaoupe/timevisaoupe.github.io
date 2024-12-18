@@ -4,9 +4,4 @@
 
 layout: home
 author_profile: false
-
-header:
-  image: /assets/images/time_visao_2023.jpg
-  caption: "Time Visao Participando do IEEE LACCI 2023"
-
 ---
