@@ -31,6 +31,11 @@
     - name: Daniel Ribeiro Dessaune 
       image: /assets/paginas/daniel_dessaune/foto.jpg
       url: /paginas/daniel_dessaune/daniel_dessaune.html  
+    - name: Lucas Candeia Teixeira 
+      image: /assets/paginas/lucas_teixeira/foto.jpg
+      url: /paginas/lucas_teixeira/lucas_teixeira.html  
+
+
 
 - name: Mestrado
   members:
