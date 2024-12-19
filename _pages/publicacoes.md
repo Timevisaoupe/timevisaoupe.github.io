@@ -8,11 +8,10 @@ permalink: /publicacoes/
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
  
-<script src="/assets/js/getOrcidPubs.js"></script>
+<script src="/assets/js/parseORCID.js"></script>
 
-<h1>Publications</h1>
-<div id="myPublications"></div>
+<div id="publications-container"></div>
 
 <script>
-    printList("0000-0002-6517-682X", "myPublications", sort=true, classify=true);
+    loadAndDisplayPublications('https://pub.orcid.org/v3.0/0000-0002-6517-682X/works');        
 </script>
