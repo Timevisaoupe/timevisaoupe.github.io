@@ -1,7 +1,7 @@
 ---
-title: Publicações 
+title: Publicações2
 layout: single
-permalink: /publicacoes/
+permalink: /publicacoes2/
 ---
 
 <bibtex src="/assets/bibs/pablo_barros.bib"></bibtex>
