@@ -65,9 +65,7 @@
       url: /paginas/alexandre_pereira/alexandre_pereira.html  
     - name: João Guilherme Rangel de Carvalho
       image: /assets/paginas/joao_carvalho/foto.jpg
-      url: /paginas/joao_carvalho/joao_carvalho.html          
-  
-
+      url: /paginas/joao_carvalho/joao_carvalho.html            
 
 - name: Bacharelado
   members:
@@ -89,7 +87,9 @@
     - name: Bruno César Protasio de Lima filho    
       image: /assets/paginas/bruno_filho/foto.jpg
       url: /paginas/bruno_filho/bruno_filho.html   
-
+    - name: Vítor Felipe Gomes Cavalcanti     
+      image: /assets/paginas/vitor_cavalcanti/foto.jpg
+      url: /paginas/vitor_cavalcanti/vitor_cavalcanti.html 
                             
 
 - name: Alumni
