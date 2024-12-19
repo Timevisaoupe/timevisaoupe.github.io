@@ -4,8 +4,8 @@ function includeJS(incFile) {
 
 
 async function getPubList(orcid) {
-    includeJS("js/Publication.js");
-    includeJS("js/ParseBibtex.js");
+    includeJS("/assets/js/Publication.js");
+    includeJS("/assets/js/ParseBibtex.js");
     let link = "https://pub.orcid.org/v2.0/" + orcid + "/works";
     let list = [];
     await httpOrcidGet(link).then(async function (data) {
