@@ -15,16 +15,16 @@
   members:
     - name: João Vinícius Ribeiro de Andrade
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html    
+      url: /paginas/joao_andrade/joao_andrade.html    
     - name: Agostinho Antônio Freire Júnior
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html  
+      url: /paginas/agostinho_junior/agostinho_junior.html
     - name: Angel Ayala Maldonado
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html        
+      url: /paginas/angel_maldonado/angel_maldonado.html
     - name: André Luiz da Silva Xavier
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html    
+      url: /paginas/andre_xavier/andre_xavier.html   
     - name: Monique Suellen de Lima s Silva Tomaz
       image: /assets/images/pesquisadores/unknown.jpg
       url: /paginas/jean_felipe_ferreira.html    
@@ -34,40 +34,40 @@
   members:
     - name: Luciana Machado Lins
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      url: /paginas/luciana_lins/luciana_lins.html
     - name: Diego Roberto Roche Palacios
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      url: /paginas/diego_palacios/diego_palacios.html
     - name: José Alejandro López Quel
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html      
+      url: /paginas/jose_quel/jose_quel.html    
     - name: Nathália Regina Cauás da Silva
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html      
+      url: /paginas/nathalia_cauas/nathalia_cauas.html     
     - name: Gabriel Lima Gonçalves da silva
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html      
+      url: /paginas/gabriel_silva/gabriel_silva.html    
     - name: Gabriel Correia de Albuquerque
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html      
+      url: /paginas/gabriel_albuquerque/gabriel_albuquerque.html      
   
 - name: Bacharelado
   members:
     - name: Jean Felipe Coelho Ferreira
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      url: /paginas/jean_ferreira/jean_ferreira.html
     - name: Igor Lucas Balbino da Silva 
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      url: /paginas/igor_silva/igor_silva.html
     - name: Mário Stela Guerra
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html
+      url: /paginas/mario_guerra/mario_guerra.html
     - name: Juan Caio Marques de Lira
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html
-    - name: JHenrique Sávio Silva Pacheco
+      url: /paginas/juan_lira/juran_lira.html
+    - name: Henrique Sávio Silva Pacheco
       image: /assets/images/pesquisadores/unknown.jpg
-      url: /paginas/jean_felipe_ferreira.html                               
+      url: /paginas/henrique_pacheco/henrique_pacheco.html                              
 
 - name: Alumni
   members:
