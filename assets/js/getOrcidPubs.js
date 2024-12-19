@@ -14,7 +14,7 @@ async function getPubList(orcid) {
             let publink = "https://pub.orcid.org/v2.0/" + orcid + "/work/" + data.group[i]["work-summary"][0]["put-code"];
             let pub = await httpOrcidGet(publink).then(function (pubdetails) {
                 pubdetails = JSON.parse(pubdetails);
-                return new ParseBibtex(pubdetails["citation"]["citation-value"]);
+                return new ParseBibtex(pubdetails);
             });
             list.push(pub);
         }
