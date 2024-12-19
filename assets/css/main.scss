@@ -8,6 +8,10 @@ search: false
 $masthead-link-color: #06402b; 
 // $background-color: gray;
 
+bibtex { display: none; }	    
+h1.header {margin-left:8px;}
+h1.YEAR { font-size: 17px; font-weight: bold; display: inline; margin-left:8px;}
+
 .researcher-content img {
     width: 20%;
     height: auto; /* This maintains the aspect ratio of the image */
