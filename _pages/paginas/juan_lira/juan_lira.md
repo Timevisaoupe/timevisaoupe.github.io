@@ -3,7 +3,7 @@ title: Juan Caio Marques de Lira
 layout: single
 permalink: /paginas/juan_lira/juran_lira.html
 ---
-!["Juan Caio Marques de Lira"](/assets/paginas/juran_lira/foto.jpg){: width="250" }
+!["Juan Caio Marques de Lira"](/assets/paginas/juan_lira/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 
