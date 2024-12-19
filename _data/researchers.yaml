@@ -34,6 +34,9 @@
     - name: Lucas Candeia Teixeira 
       image: /assets/paginas/lucas_teixeira/foto.jpg
       url: /paginas/lucas_teixeira/lucas_teixeira.html  
+    - name: Júlio César Gomes de Barros 
+      image: /assets/paginas/julio_barros/foto.jpg
+      url: /paginas/julio_barros/julio_barros.html  
 
 
 
