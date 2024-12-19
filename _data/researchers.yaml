@@ -28,7 +28,9 @@
     - name: Monique Suellen de Lima Silva Tomaz
       image: /assets/paginas/monique_tomaz/foto.jpg
       url: /paginas/monique_tomaz/monique_tomaz.html      
-
+    - name: Daniel Ribeiro Dessaune 
+      image: /assets/paginas/daniel_dessaune/foto.jpg
+      url: /paginas/daniel_dessaune/daniel_dessaune.html  
 
 - name: Mestrado
   members:
@@ -50,7 +52,15 @@
     - name: Gabriel Correia de Albuquerque
       image: /assets/paginas/gabriel_albuquerque/foto.jpg
       url: /paginas/gabriel_albuquerque/gabriel_albuquerque.html      
+    - name: Alexandre Rodolfo Moreira Pereira
+      image: /assets/paginas/alexandre_pereira/foto.jpg
+      url: /paginas/alexandre_pereira/alexandre_pereira.html  
+    - name: João Guilherme Rangel de Carvalho
+      image: /assets/paginas/joao_carvalho/foto.jpg
+      url: /paginas/joao_carvalho/joao_carvalho.html          
   
+
+
 - name: Bacharelado
   members:
     - name: Jean Felipe Coelho Ferreira
@@ -67,7 +77,12 @@
       url: /paginas/juan_lira/juran_lira.html
     - name: Henrique Sávio Silva Pacheco
       image: /assets/paginas/henrique_pacheco/foto.jpg
-      url: /paginas/henrique_pacheco/henrique_pacheco.html                              
+      url: /paginas/henrique_pacheco/henrique_pacheco.html    
+    - name: Bruno César Protasio de Lima filho    
+      image: /assets/paginas/bruno_filho/foto.jpg
+      url: /paginas/bruno_filho/bruno_filho.html   
+
+                            
 
 - name: Alumni
   members:
