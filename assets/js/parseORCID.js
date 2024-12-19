@@ -1,47 +1,53 @@
-// Function to fetch and parse the XML file
-function loadAndDisplayPublications(url) {
-  fetch(url)
-    .then(response => response.text())
-    .then(data => {
-      const parser = new DOMParser();
-      const xmlDoc = parser.parseFromString(data, "application/xml");
+// Function to fetch and parse the XML file from a specific ORCID URL
+function loadAndDisplayPublications() {
+  const orcidUrl = 'https://pub.orcid.org/v3.0/0000-0002-6517-682X/works';
 
-      const works = xmlDoc.getElementsByTagName("work:work-summary");
-      let publicationsByYear = {};
+  fetch(orcidUrl, {
+    headers: {
+      'Accept': 'application/xml' // Ensure the server sends back XML data
+    }
+  })
+  .then(response => response.text())
+  .then(data => {
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(data, "application/xml");
 
-      // Extract details and group by year
-      for (let work of works) {
-        const titleElement = work.querySelector("work:title common:title");
-        const title = titleElement ? titleElement.textContent : "No title available";
+    const works = xmlDoc.getElementsByTagName("work:work-summary");
+    let publicationsByYear = {};
 
-        const journalElement = work.querySelector("work:journal-title");
-        const journalTitle = journalElement ? journalElement.textContent : "No journal/conference title available";
+    // Extract details and group by year
+    for (let work of works) {
+      const titleElement = work.querySelector("work:title common:title");
+      const title = titleElement ? titleElement.textContent : "No title available";
 
-        const yearElement = work.querySelector("common:publication-date common:year");
-        const year = yearElement ? yearElement.textContent : "Unknown year";
+      const journalElement = work.querySelector("work:journal-title");
+      const journalTitle = journalElement ? journalElement.textContent : "No journal/conference title available";
 
-        const urlElement = work.querySelector("common:url");
-        const url = urlElement ? urlElement.textContent : "#";
+      const yearElement = work.querySelector("common:publication-date common:year");
+      const year = yearElement ? yearElement.textContent : "Unknown year";
 
-        const typeElement = work.querySelector("work:type");
-        const type = typeElement ? typeElement.textContent : "Unknown type";
+      const urlElement = work.querySelector("common:url");
+      const url = urlElement ? urlElement.textContent : "#";
 
-        if (!publicationsByYear[year]) {
-          publicationsByYear[year] = [];
-        }
+      const typeElement = work.querySelector("work:type");
+      const type = typeElement ? typeElement.textContent : "Unknown type";
 
-        publicationsByYear[year].push({
-          title,
-          journalTitle,
-          url,
-          type
-        });
+      if (!publicationsByYear[year]) {
+        publicationsByYear[year] = [];
       }
 
-      // Sort years in descending order and display publications
-      displayPublications(publicationsByYear);
-    })
-    .catch(error => console.error('Error loading or parsing the XML:', error));
+      publicationsByYear[year].push({
+        title,
+        journalTitle,
+        url,
+        type
+      });
+    }
+
+    // Sort years in descending order and display publications
+    displayPublications(publicationsByYear);
+  })
+  .catch(error => console.error('Error loading or parsing the XML:', error));
 }
 
 // Function to display publications grouped by year

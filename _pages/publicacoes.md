@@ -13,5 +13,5 @@ permalink: /publicacoes/
 <div id="publications-container"></div>
 
 <script>
-    loadAndDisplayPublications('https://pub.orcid.org/v3.0/0000-0002-6517-682X/works');        
+   loadAndDisplayPublications();      
 </script>
