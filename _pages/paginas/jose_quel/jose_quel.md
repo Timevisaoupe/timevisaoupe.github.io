@@ -3,7 +3,7 @@ title: José Alejandro López Quel
 layout: single
 permalink: /paginas/jose_quel/jose_quel.html
 ---
-!["José Alejandro López Quel"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["José Alejandro López Quel"](/assets/paginas/jose_quel/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

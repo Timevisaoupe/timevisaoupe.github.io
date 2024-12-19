@@ -3,7 +3,7 @@ title: Luciana Machado Lins
 layout: single
 permalink: /paginas/luciana_lins/luciana_lins.html
 ---
-!["Luciana Machado Lins"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Luciana Machado Lins"](/assets/paginas/luciana_lins/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

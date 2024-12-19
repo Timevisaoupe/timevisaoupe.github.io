@@ -3,7 +3,7 @@ title: Monique Suellen de Lima s Silva Tomaz
 layout: single
 permalink: /paginas/monique_tomaz/monique_tomaz.html
 ---
-!["Monique Suellen de Lima s Silva Tomaz"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Monique Suellen de Lima s Silva Tomaz"](/assets/paginas/monique_tomaz/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

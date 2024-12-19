@@ -3,7 +3,7 @@ title: Angel Ayala Maldonado
 layout: single
 permalink: /paginas/angel_maldonado/angel_maldonado.html
 ---
-![" Angel Ayala Maldonado](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+![" Angel Ayala Maldonado](/assets/paginas/angel_maldonado/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

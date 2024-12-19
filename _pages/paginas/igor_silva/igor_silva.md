@@ -3,7 +3,7 @@ title: Igor Lucas Balbino da Silva
 layout: single
 permalink: /paginas/igor_silva/igor_silva.html
 ---
-!["Igor Lucas Balbino da Silva"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Igor Lucas Balbino da Silva"](/assets/paginas/igor_silva/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

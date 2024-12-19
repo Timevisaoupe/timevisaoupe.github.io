@@ -3,7 +3,7 @@ title: Gabriel Correia de Albuquerque
 layout: single
 permalink: /paginas/gabriel_albuquerque/gabriel_albuquerque.html
 ---
-!["Gabriel Correia de Albuquerque"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Gabriel Correia de Albuquerque"](/assets/paginas/gabriel_albuquerque/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

@@ -3,7 +3,7 @@ title: João Vinícius Ribeiro de Andrade
 layout: single
 permalink: /paginas/joao_andrade/joao_andrade.html
 ---
-!["João Vinícius Ribeiro de Andrade](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["João Vinícius Ribeiro de Andrade](/assets/paginas/joao_andrade/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

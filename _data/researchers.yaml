@@ -1,72 +1,72 @@
 - name: Lideres do Grupo
   members:
     - name: Bruno Jose Torres Fernandes
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/bruno_fernandes/foto.jpg
       url: /paginas/bruno_fernandes/bruno_fernandes.html
     - name: Leandro Honorato
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/leandro_honorato/foto.jpg
       url: /paginas/leandro_honorato/leandro_honorato.html
     - name: Pablo Barros
-      image: /assets/images/pesquisadores/pablo_barros.jpg
+      image: /assets/paginas/pablo_barros/foto.jpg
       url: /paginas/pablo_barros/pablo_barros.html
 
 
 - name: Doutorado
   members:
     - name: João Vinícius Ribeiro de Andrade
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/joao_andrade/foto.jpg
       url: /paginas/joao_andrade/joao_andrade.html    
     - name: Agostinho Antônio Freire Júnior
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/agostinho_junior/foto.jpg
       url: /paginas/agostinho_junior/agostinho_junior.html
     - name: Angel Ayala Maldonado
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/angel_maldonado/foto.jpg
       url: /paginas/angel_maldonado/angel_maldonado.html
     - name: André Luiz da Silva Xavier
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/andre_xavier/foto.jpg
       url: /paginas/andre_xavier/andre_xavier.html   
-    - name: Monique Suellen de Lima s Silva Tomaz
-      image: /assets/images/pesquisadores/unknown.jpg
+    - name: Monique Suellen de Lima Silva Tomaz
+      image: /assets/paginas/monique_tomaz/foto.jpg
       url: /paginas/jean_felipe_ferreira.html    
 
 
 - name: Mestrado
   members:
     - name: Luciana Machado Lins
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/luciana_lins/foto.jpg
       url: /paginas/luciana_lins/luciana_lins.html
     - name: Diego Roberto Roche Palacios
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/diego_palacios/foto.jpg
       url: /paginas/diego_palacios/diego_palacios.html
     - name: José Alejandro López Quel
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/jose_quel/foto.jpg
       url: /paginas/jose_quel/jose_quel.html    
     - name: Nathália Regina Cauás da Silva
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/nathalia_cauas/foto.jpg
       url: /paginas/nathalia_cauas/nathalia_cauas.html     
     - name: Gabriel Lima Gonçalves da silva
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/gabriel_silva/foto.jpg
       url: /paginas/gabriel_silva/gabriel_silva.html    
     - name: Gabriel Correia de Albuquerque
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/gabriel_albuquerque/foto.jpg
       url: /paginas/gabriel_albuquerque/gabriel_albuquerque.html      
   
 - name: Bacharelado
   members:
     - name: Jean Felipe Coelho Ferreira
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/jean_ferreira/foto.jpg
       url: /paginas/jean_ferreira/jean_ferreira.html
     - name: Igor Lucas Balbino da Silva 
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/igor_silva/foto.jpg
       url: /paginas/igor_silva/igor_silva.html
     - name: Mário Stela Guerra
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/mario_guerra/foto.jpg
       url: /paginas/mario_guerra/mario_guerra.html
     - name: Juan Caio Marques de Lira
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/juan_lira/foto.jpg
       url: /paginas/juan_lira/juran_lira.html
     - name: Henrique Sávio Silva Pacheco
-      image: /assets/images/pesquisadores/unknown.jpg
+      image: /assets/paginas/henrique_pacheco/foto.jpg
       url: /paginas/henrique_pacheco/henrique_pacheco.html                              
 
 - name: Alumni

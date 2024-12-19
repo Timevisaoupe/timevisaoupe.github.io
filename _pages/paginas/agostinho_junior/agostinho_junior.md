@@ -3,7 +3,7 @@ title: Agostinho Antônio Freire Júnior
 layout: single
 permalink: /paginas/agostinho_junior/agostinho_junior.html
 ---
-!["Agostinho Antônio Freire Júnior"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Agostinho Antônio Freire Júnior"](/assets/paginas/agostinho_junior/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

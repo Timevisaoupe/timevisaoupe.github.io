@@ -3,7 +3,7 @@ title: Nathália Regina Cauás da Silva
 layout: single
 permalink: /paginas/nathalia_cauas/nathalia_cauas.html
 ---
-!["Nathália Regina Cauás da Silva"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Nathália Regina Cauás da Silva"](/assets/paginas/nathalia_cauas/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

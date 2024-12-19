@@ -3,7 +3,7 @@ title: Bruno Fernandes
 layout: single
 permalink: /paginas/bruno_fernandes/bruno_fernandes.html
 ---
-!["Bruno Fernandes](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Bruno Fernandes](/assets/paginas/bruno_fernandes/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

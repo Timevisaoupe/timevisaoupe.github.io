@@ -3,7 +3,7 @@ title: André Luiz da Silva Xavier
 layout: single
 permalink: /paginas/andre_xavier/andre_xavier.html
 ---
-!["André Luiz da Silva Xavier"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["André Luiz da Silva Xavier"](/assets/paginas/andre_xavier/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

@@ -3,7 +3,7 @@ title: Diego Roberto Roche Palacios
 layout: single
 permalink: /paginas/diego_palacios/diego_palacios.html
 ---
-!["Diego Roberto Roche Palacios"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Diego Roberto Roche Palacios"](/assets/paginas/diego_palacios/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

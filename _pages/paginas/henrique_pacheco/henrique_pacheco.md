@@ -3,7 +3,7 @@ title: Henrique Sávio Silva Pacheco
 layout: single
 permalink: /paginas/henrique_pacheco/henrique_pacheco.html
 ---
-!["Henrique Sávio Silva Pacheco"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Henrique Sávio Silva Pacheco"](/assets/paginas/henrique_pacheco/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

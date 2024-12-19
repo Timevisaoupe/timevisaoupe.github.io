@@ -3,7 +3,7 @@ title: Gabriel Lima Gonçalves da silva
 layout: single
 permalink: /paginas/gabriel_silva/gabriel_silva.html
 ---
-!["Gabriel Lima Gonçalves da silva"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Gabriel Lima Gonçalves da silva"](/assets/paginas/gabriel_silva/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

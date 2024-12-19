@@ -3,7 +3,7 @@ title: Jean Felipe Coelho Ferreira
 layout: single
 permalink: /paginas/jean_ferreira/jean_ferreira.html
 ---
-!["Jean Felipe Coelho Ferreira"](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Jean Felipe Coelho Ferreira"](/assets/paginas/jean_ferreira/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 

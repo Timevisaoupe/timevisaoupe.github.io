@@ -3,7 +3,7 @@ title: Leandro Honorato
 layout: single
 permalink: /paginas/leandro_honorato/leandro_honorato.html
 ---
-!["Leandro Honorato](/assets/images/pesquisadores/unknown.jpg){: width="250" }
+!["Leandro Honorato](/assets/paginas/leandro_honorato/foto.jpg){: width="250" }
 
 **E-mail**: email @ ecomp.poli.br
 
