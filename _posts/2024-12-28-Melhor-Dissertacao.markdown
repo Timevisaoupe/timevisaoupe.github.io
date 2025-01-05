@@ -7,7 +7,7 @@ categories: jekyll update
 
 
 
-!["Time Visao no Lacoro"](https://timevisaoupe.github.io/assets/images/news/melhor_dissertacao.jpg)
+!["Time Visao no Lacoro"](images/melhor_dissertacao.jpg)
 
 Parabenizamos o aluno Júlio Cesar Gomes de Barrospor concluir seu curso de mestrado com a premiação de melhor dissertação concedida pela Universidade de Pernambuco!
 

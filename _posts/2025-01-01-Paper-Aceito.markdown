@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Paper aceito na revista IEEE Sensors!"
-date:   2024-12-28 17:34:01 +0100
+date:   2025-01-01 17:34:01 +0100
 categories: jekyll update
 ---
 
