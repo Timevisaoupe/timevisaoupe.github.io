@@ -35,7 +35,7 @@ Cada pesquisador do Time Visão possui uma página pessoal no site. Essa página
 O conteúdo das páginas dos pesquisadores está em:
 
 ```
-_pages/paginas/[seu_nome]/[seu_nome].html
+_pages/paginas/[seu_nome]/[seu_nome].md
 ```
 
 A imagem de perfil correspondente deve estar em:
