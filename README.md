@@ -1,36 +1,143 @@
-# Bem-vindo ao Website do Time Visão
 
-## Sobre o Website e o Time Visão
+# 🌐 Website Oficial do Time Visão
 
-Este site é dedicado ao nosso grupo de pesquisa, o Time Visão. Aqui você encontrará informações sobre nossos projetos atuais, publicações e detalhes sobre os membros do grupo. Navegue pelo site para descobrir mais sobre nossas atividades e contribuições no campo da visão computacional.
+Bem-vindo ao repositório do site oficial do **Time Visão**, grupo de pesquisa da Universidade de Pernambuco (UPE) com atuação em **Visão Computacional**, **Inteligência Artificial** e áreas correlatas.
 
-## Páginas Pessoais
+Este repositório hospeda o código-fonte do nosso website institucional:  
+🔗 [https://timevisaoupe.github.io](https://timevisaoupe.github.io)
 
-Cada pesquisador afiliado ao nosso grupo receberá uma página pessoal no site. Estas páginas são espaços dedicados para que os membros do grupo compartilhem informações sobre seu trabalho, projetos em andamento e publicações. As páginas pessoais são uma excelente maneira de resumir todo o seu perfil profissional, facilitando a distribuição e disseminação com um link único e permanente.
+---
 
-### Como Atualizar Sua Página
+## 📌 Sobre o Website
 
-Para garantir que as informações estejam sempre atualizadas e reflitam seus mais recentes desenvolvimentos acadêmicos e profissionais, cada pesquisador é encorajado a manter sua página atualizada. Aqui estão os passos para atualizar sua página pessoal:
+O site foi desenvolvido para apresentar os projetos, publicações, eventos e os pesquisadores que fazem parte do grupo. Está estruturado com as seguintes seções principais:
 
-1. **Acesso**: Primeiro, você precisa ter acesso à nossa organização no GitHub. Caso você ainda não tenha acesso, entre em contato com seu orientador.
+- **Página Inicial**
+- **Pesquisadores**
+- **Projetos**
+- **Publicações**
+- **Novidades**
+- **Página individual de cada pesquisador**
 
-2. **Edição de Conteúdo**: As páginas pessoais estão armazenadas no diretório [_pages/paginas/[seu_nome]](https://github.com/Timevisaoupe/timevisaoupe.github.io/tree/main/_pages/paginas/). Cada aluno terá sua página criada assim que for afiliado ao grupo. A página é uma página HTML estática que você pode alterar utilizando [Markdown Language](https://www.markdownguide.org/getting-started/).
+---
 
-   Edite sua página pessoal como desejar, diretamente do seu navegador, editando o arquivo direto no GitHub. Disponibilizamos um template para facilitar a organização da página. Você pode incluir informações:
-      - **Profissionais**: e-mail institucional, links para o seu LinkedIn, currículo Lattes e Google Scholar.
-      - **Sobre seus projetos**: nome do projeto, data de execução e descrição.
-      - **Mais informações**: uma área livre para compartilhar anotações, comentários, pensamentos, novidades ou o que você considerar relevante.
+## 👥 Páginas de Pesquisadores
 
-3. **Alteração da sua foto**: Para alterar sua foto, navegue até o diretório [assets/paginas/[seu_nome]](https://github.com/Timevisaoupe/timevisaoupe.github.io/tree/main/assets/paginas/) e substitua o arquivo `foto.jpg` com sua foto. A foto deve ser em formato JPG e ter obrigatoriamente o nome `foto.jpg`.
+Cada pesquisador do Time Visão possui uma página pessoal no site. Essa página funciona como um mini-portfólio e pode conter:
 
-### Regras de Uso
+- Nome, e-mail e foto
+- Links para LinkedIn, Lattes e Google Scholar
+- Lista de projetos
+- Bio e demais informações relevantes
 
-- **Finalidade Acadêmica**: As páginas pessoais devem ser usadas exclusivamente para atividades acadêmicas.
-- **Conduta**: É proibido utilizar as páginas pessoais para qualquer tipo de ofensa, discriminação ou quebra de leis.
-- **Direitos**: O grupo reserva-se o direito de remover qualquer página a qualquer momento, caso seja necessário.
+### 📁 Localização
 
-## Suporte
+O conteúdo das páginas dos pesquisadores está em:
 
-Se você encontrar problemas ou precisar de assistência com a atualização de sua página, não hesite em nos contatar pelo grupo do WhatsApp.
+```
+_pages/paginas/[seu_nome]/[seu_nome].html
+```
 
-Esperamos que este site sirva como uma ferramenta útil para promover seu trabalho e colaborações dentro do grupo de pesquisa!
+A imagem de perfil correspondente deve estar em:
+
+```
+assets/paginas/[seu_nome]/foto.jpg
+```
+
+---
+
+## ✏️ Como Atualizar Sua Página Pessoal
+
+### 1. Obter Acesso
+Você precisa ter acesso como colaborador à organização do GitHub. Solicite ao seu orientador ou administrador do grupo, caso ainda não tenha.
+
+### 2. Atualizar Informações
+Edite seu arquivo `.html` diretamente no GitHub (usando Markdown). Um modelo inicial já será criado quando seu nome for adicionado ao arquivo `researchers.yaml`.
+
+Você pode incluir:
+
+- Informações de contato (e-mail, LinkedIn, Lattes, Scholar)
+- Descrição de projetos
+- Bio acadêmica
+- Links para sites pessoais
+- Sessões opcionais como blog, galeria ou novidades
+
+### 3. Atualizar a Foto
+Para alterar sua foto de perfil:
+
+1. Navegue até `assets/paginas/seu_nome/`
+2. Substitua o arquivo `foto.jpg` por sua nova foto (mesmo nome)
+3. Recomenda-se usar uma imagem quadrada, clara e com boa resolução
+
+---
+
+## 🧑‍💻 Como Atualizar Pesquisadores no Site
+
+Os pesquisadores listados na página principal são definidos no arquivo:
+
+```
+_data/researchers.yaml
+```
+
+Cada entrada deve conter os seguintes campos:
+
+```yaml
+- name: Nome Completo
+  image: /assets/paginas/seu_nome/foto.jpg
+  url: /paginas/seu_nome/seu_nome.html
+  bio: (opcional)
+  area: (opcional)
+```
+
+Exemplo:
+
+```yaml
+- name: Agostinho Freire
+  image: /assets/paginas/agostinho_freire/foto.jpg
+  url: /paginas/agostinho_freire/agostinho_freire.html
+  bio: Pesquisador no campo de IA distribuída.
+  area: Aprendizado Federado e Visão Computacional
+```
+
+---
+
+## 📚 Como Atualizar as Publicações
+
+As publicações são carregadas a partir de arquivos `.bib` para cada pesquisador, armazenados em:
+
+```
+assets/bibs/
+```
+
+Para adicionar ou atualizar suas publicações:
+
+1. Crie/edite o arquivo `seu_nome.bib`
+2. Use o formato BibTeX padrão
+3. Certifique-se de manter os campos `author`, `title`, `year`, etc.
+
+---
+
+## 🚨 Regras de Uso e Conduta
+
+- **Finalidade Acadêmica**: O site deve ser usado apenas para fins de divulgação acadêmica e científica.
+- **Comportamento Ético**: Não é permitido conteúdo ofensivo, discriminatório ou fora do escopo institucional.
+- **Manutenção e Curadoria**: O Time Visão reserva-se o direito de revisar, editar ou remover conteúdos que não estejam em conformidade.
+
+---
+
+## 🛠️ Deploy
+
+O site é hospedado via **GitHub Pages**. Toda atualização feita no branch `main` será automaticamente publicada.  
+Você pode visualizar o status do deploy em:  
+[https://github.com/Timevisaoupe/timevisaoupe.github.io/actions](https://github.com/Timevisaoupe/timevisaoupe.github.io/actions)
+
+---
+
+## 🤝 Suporte
+
+Em caso de dúvidas ou problemas com o repositório, entre em contato com os mantenedores do Time Visão ou envie uma mensagem no grupo do WhatsApp do time.
+
+---
+
+Obrigado por contribuir com o Time Visão 🚀  
+_Unindo pesquisa, inovação e impacto social._

@@ -1,9 +1,9 @@
 ---
-title: Bruno Fernandes
+title: Lucas Matheus da Silva Oliveira
 layout: researcher
-permalink: /paginas/bruno_fernandes/bruno_fernandes.html
-image: /assets/paginas/bruno_fernandes/foto.jpg
-email: bjtf@ecomp.poli.br
+permalink: /paginas/lucas_matheus/lucas_matheus.html
+image: /assets/paginas/lucas_matheus/foto.jpg
+email: lhss@ecomp.poli.br
 linkedin: https://www.linkedin.com/in/seu-link
 lattes: https://lattes.cnpq.br/seu-id
 scholar: https://scholar.google.com/citations?user=seu-id

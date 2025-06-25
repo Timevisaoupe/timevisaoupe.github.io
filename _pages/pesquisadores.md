@@ -22,7 +22,7 @@ permalink: /pesquisadores/
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   width: 220px;
-  min-height: 280px;
+  min-height: 310px;
   padding: 1rem;
   display: flex;
   flex-direction: column;

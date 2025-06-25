@@ -1,26 +1,24 @@
 ---
-title: João Vinícius Ribeiro de Andrade
-layout: single
+title: João Andrade
+layout: researcher
 permalink: /paginas/joao_andrade/joao_andrade.html
+image: /assets/paginas/joao_andrade/foto.jpg
+email: jvlc@ecomp.poli.br
+linkedin: https://www.linkedin.com/in/seu-link
+lattes: https://lattes.cnpq.br/seu-id
+scholar: https://scholar.google.com/citations?user=seu-id
 ---
-!["João Vinícius Ribeiro de Andrade](/assets/paginas/joao_andrade/foto.jpg){: width="250" }
 
-**E-mail**: email @ ecomp.poli.br
-
-**LinkedIn**: [Profile](link aqui){:target="_blank"} 
-
-**Lattes**: [Curriculum](lattes aqui){:target="_blank"} 
-
-**Google Scholar**: [Publications](google scholar aqui){:target="_blank"} 
-
-## Projects
+## Projetos em Andamento
 
 ### Nome do Projeto
-  *Data*: data inicio - data fim (estimado?)
-    [Website do projeto](website link){:target="_blank"} 
-    
-    Descricao do projeto
+**Período:** Março de 2024 – presente  
+[Website do projeto](https://site-do-projeto.com){:target="_blank"}  
 
-## Mais Informacoes
+Breve descrição do projeto...
 
-Content added by the researcher as needed, such as a blog, image gallery, or recommendation letters.
+---
+
+## Mais Informações
+
+Espaço para outras contribuições, blog, links, etc.
