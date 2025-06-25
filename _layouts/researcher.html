@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<style>
+.perfil-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.perfil-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.perfil-container img {
+  width: 220px;
+  border-radius: 1rem;
+  border: 3px solid #b0fe76;
+  object-fit: cover;
+}
+
+.perfil-dados {
+  flex: 1;
+  color: #f0f0f0;
+}
+
+.perfil-dados p {
+  margin: 0.3rem 0;
+}
+
+.perfil-dados a {
+  color: #b0fe76;
+  text-decoration: none;
+}
+
+.perfil-dados a:hover {
+  text-decoration: underline;
+}
+
+.projetos {
+  margin-top: 2rem;
+}
+
+.projetos h2,
+.projetos h3 {
+  color: #b0fe76;
+  margin-top: 1.5rem;
+}
+</style>
+
+<div class="perfil-wrapper">
+
+  <!-- PERFIL -->
+  <div class="perfil-container">
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+    <div class="perfil-dados">
+      <p><strong>E-mail:</strong> {{ page.email }}</p>
+      <p><strong>LinkedIn:</strong> <a href="{{ page.linkedin }}" target="_blank">Profile</a></p>
+      <p><strong>Lattes:</strong> <a href="{{ page.lattes }}" target="_blank">Curriculum</a></p>
+      <p><strong>Google Scholar:</strong> <a href="{{ page.scholar }}" target="_blank">Publications</a></p>
+    </div>
+  </div>
+
+  <!-- CONTEÚDO PERSONALIZADO -->
+  <div class="projetos">
+    {{ content }}
+  </div>
+
+</div>

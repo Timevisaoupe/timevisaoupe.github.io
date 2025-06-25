@@ -86,13 +86,18 @@ permalink: /pesquisadores/
   margin-top: 0.25rem;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .category-container {
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 }
+
+@media (max-width: 600px) {
+  .researcher {
+    width: 80%;
+  }
+}
+
 </style>
 
 
