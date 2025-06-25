@@ -1,3 +1,8 @@
-- name: Plataforma de Jogos Social Chef`s Hat 
+- name: Plataforma de Jogos Social Chef`s Hat
   image: /assets/images/projetos/cardGame.jpg
   url: https://github.com/pablovin/ChefsHatGYM
+  description: Projeto desenvolvido no Time Visão com aplicação em IA.
+  tags:
+  - Inteligência Artificial
+  - Pesquisa
+  status: Em andamento

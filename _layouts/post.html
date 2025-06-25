@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="post" style="padding: 2rem;">
+  <header class="post-header">
+    <h1 class="post-title" style="color: #b0fe76;">{{ page.title }}</h1>
+    <p class="post-meta" style="color: #ccc; font-size: 0.8rem;">
+      Publicado em {{ page.date | date: "%d/%m/%Y" }} · {{ page.author | default: "Time Visão" }}
+    </p>
+
+    {% if page.tags %}
+      <div class="post-tags" style="margin-bottom: 1rem;">
+        {% for tag in page.tags %}
+          <span style="display: inline-block; background-color: #b0fe76; color: #2d3047; font-size: 0.7rem; padding: 0.2rem 0.5rem; border-radius: 0.5rem; margin-right: 0.3rem;">
+            {{ tag }}
+          </span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  {% if page.image %}
+    <div style="text-align: center; margin-bottom: 1rem;">
+      <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 50%; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    </div>
+  {% endif %}
+
+  <div class="post-content" style="color: #f0f0f0; font-size: 0.95rem; line-height: 1.6;">
+    {{ content }}
+  </div>
+
+  <footer style="margin-top: 2rem;">
+    <a href="/novidades/" style="color: #b0fe76; text-decoration: none;">← Voltar para todas as novidades</a>
+  </footer>
+</article>

@@ -1,96 +1,138 @@
-- name: Principal Investigators
+- name: Professores Orientadores
   members:
-    - name: Bruno Jose Torres Fernandes
-      image: /assets/paginas/bruno_fernandes/foto.jpg
-      url: /paginas/bruno_fernandes/bruno_fernandes.html
-    - name: Leandro Honorato
-      image: /assets/paginas/leandro_honorato/foto.jpg
-      url: /paginas/leandro_honorato/leandro_honorato.html
-    - name: Pablo Barros
-      image: /assets/paginas/pablo_barros/foto.jpg
-      url: /paginas/pablo_barros/pablo_barros.html
-
- 
+  - name: Bruno Jose Torres Fernandes
+    image: /assets/paginas/bruno_fernandes/foto.jpg
+    url: /paginas/bruno_fernandes/bruno_fernandes.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Leandro Honorato
+    image: /assets/paginas/leandro_honorato/foto.jpg
+    url: /paginas/leandro_honorato/leandro_honorato.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Pablo Barros
+    image: /assets/paginas/pablo_barros/foto.jpg
+    url: /paginas/pablo_barros/pablo_barros.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
 - name: Doutorado
   members:
-    - name: João Vinícius Ribeiro de Andrade
-      image: /assets/paginas/joao_andrade/foto.jpg
-      url: /paginas/joao_andrade/joao_andrade.html    
-    - name: Agostinho Antônio Freire Júnior
-      image: /assets/paginas/agostinho_junior/foto.jpg
-      url: /paginas/agostinho_junior/agostinho_junior.html
-    - name: Angel Ayala Maldonado
-      image: /assets/paginas/angel_maldonado/foto.jpg
-      url: /paginas/angel_maldonado/angel_maldonado.html
-    - name: André Luiz da Silva Xavier
-      image: /assets/paginas/andre_xavier/foto.jpg
-      url: /paginas/andre_xavier/andre_xavier.html   
-    - name: Monique Suellen de Lima Silva Tomaz
-      image: /assets/paginas/monique_tomaz/foto.jpg
-      url: /paginas/monique_tomaz/monique_tomaz.html      
-    - name: Daniel Ribeiro Dessaune 
-      image: /assets/paginas/daniel_dessaune/foto.jpg
-      url: /paginas/daniel_dessaune/daniel_dessaune.html  
-    - name: Lucas Candeia Teixeira 
-      image: /assets/paginas/lucas_teixeira/foto.jpg
-      url: /paginas/lucas_teixeira/lucas_teixeira.html  
-    - name: Júlio César Gomes de Barros 
-      image: /assets/paginas/julio_barros/foto.jpg
-      url: /paginas/julio_barros/julio_barros.html  
-
-
-
+  - name: Agostinho Antônio Freire Júnior
+    image: /assets/paginas/agostinho_freire/foto.jpg
+    url: /paginas/agostinho_freire/agostinho_freire.html
+    bio: IEEE Student Member
+    area: Aprendizado Federado e Visão Computacional
+  - name: André Luiz da Silva Xavier
+    image: /assets/paginas/andre_xavier/foto.jpg
+    url: /paginas/andre_xavier/andre_xavier.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Angel Ayala Maldonado
+    image: /assets/paginas/angel_maldonado/foto.jpg
+    url: /paginas/angel_maldonado/angel_maldonado.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Daniel Ribeiro Dessaune
+    image: /assets/paginas/daniel_dessaune/foto.jpg
+    url: /paginas/daniel_dessaune/daniel_dessaune.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: João Vinícius Ribeiro de Andrade
+    image: /assets/paginas/joao_andrade/foto.jpg
+    url: /paginas/joao_andrade/joao_andrade.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Júlio César Gomes de Barros
+    image: /assets/paginas/julio_barros/foto.jpg
+    url: /paginas/julio_barros/julio_barros.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Lucas Candeia Teixeira
+    image: /assets/paginas/lucas_teixeira/foto.jpg
+    url: /paginas/lucas_teixeira/lucas_teixeira.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Monique Suellen de Lima Silva Tomaz
+    image: /assets/paginas/monique_tomaz/foto.jpg
+    url: /paginas/monique_tomaz/monique_tomaz.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
 - name: Mestrado
   members:
-    - name: Luciana Machado Lins
-      image: /assets/paginas/luciana_lins/foto.jpg
-      url: /paginas/luciana_lins/luciana_lins.html
-    - name: Diego Roberto Roche Palacios
-      image: /assets/paginas/diego_palacios/foto.jpg
-      url: /paginas/diego_palacios/diego_palacios.html
-    - name: José Alejandro López Quel
-      image: /assets/paginas/jose_quel/foto.jpg
-      url: /paginas/jose_quel/jose_quel.html    
-    - name: Nathália Regina Cauás da Silva
-      image: /assets/paginas/nathalia_cauas/foto.jpg
-      url: /paginas/nathalia_cauas/nathalia_cauas.html     
-    - name: Gabriel Lima Gonçalves da silva
-      image: /assets/paginas/gabriel_silva/foto.jpg
-      url: /paginas/gabriel_silva/gabriel_silva.html    
-    - name: Gabriel Correia de Albuquerque
-      image: /assets/paginas/gabriel_albuquerque/foto.jpg
-      url: /paginas/gabriel_albuquerque/gabriel_albuquerque.html      
-    - name: Alexandre Rodolfo Moreira Pereira
-      image: /assets/paginas/alexandre_pereira/foto.jpg
-      url: /paginas/alexandre_pereira/alexandre_pereira.html  
-    - name: João Guilherme Rangel de Carvalho
-      image: /assets/paginas/joao_carvalho/foto.jpg
-      url: /paginas/joao_carvalho/joao_carvalho.html            
-
+  - name: Alexandre Rodolfo Moreira Pereira
+    image: /assets/paginas/alexandre_pereira/foto.jpg
+    url: /paginas/alexandre_pereira/alexandre_pereira.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Diego Roberto Roche Palacios
+    image: /assets/paginas/diego_palacios/foto.jpg
+    url: /paginas/diego_palacios/diego_palacios.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Gabriel Correia de Albuquerque
+    image: /assets/paginas/gabriel_albuquerque/foto.jpg
+    url: /paginas/gabriel_albuquerque/gabriel_albuquerque.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Gabriel Lima Gonçalves da silva
+    image: /assets/paginas/gabriel_silva/foto.jpg
+    url: /paginas/gabriel_silva/gabriel_silva.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: José Alejandro López Quel
+    image: /assets/paginas/jose_quel/foto.jpg
+    url: /paginas/jose_quel/jose_quel.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: João Guilherme Rangel de Carvalho
+    image: /assets/paginas/joao_carvalho/foto.jpg
+    url: /paginas/joao_carvalho/joao_carvalho.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Luciana Machado Lins
+    image: /assets/paginas/luciana_lins/foto.jpg
+    url: /paginas/luciana_lins/luciana_lins.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Nathália Regina Cauás da Silva
+    image: /assets/paginas/nathalia_cauas/foto.jpg
+    url: /paginas/nathalia_cauas/nathalia_cauas.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
 - name: Bacharelado
   members:
-    - name: Jean Felipe Coelho Ferreira
-      image: /assets/paginas/jean_ferreira/foto.jpg
-      url: /paginas/jean_ferreira/jean_ferreira.html
-    - name: Igor Lucas Balbino da Silva 
-      image: /assets/paginas/igor_silva/foto.jpg
-      url: /paginas/igor_silva/igor_silva.html
-    - name: Mário Stela Guerra
-      image: /assets/paginas/mario_guerra/foto.jpg
-      url: /paginas/mario_guerra/mario_guerra.html
-    - name: Juan Caio Marques de Lira
-      image: /assets/paginas/juan_lira/foto.jpg
-      url: /paginas/juan_lira/juran_lira.html
-    - name: Henrique Sávio Silva Pacheco
-      image: /assets/paginas/henrique_pacheco/foto.jpg
-      url: /paginas/henrique_pacheco/henrique_pacheco.html    
-    - name: Bruno César Protasio de Lima filho    
-      image: /assets/paginas/bruno_filho/foto.jpg
-      url: /paginas/bruno_filho/bruno_filho.html   
-    - name: Vítor Felipe Gomes Cavalcanti     
-      image: /assets/paginas/vitor_cavalcanti/foto.jpg
-      url: /paginas/vitor_cavalcanti/vitor_cavalcanti.html 
-                            
-
-- name: Alumni
-  members:
+  - name: Bruno César Protasio de Lima filho
+    image: /assets/paginas/bruno_filho/foto.jpg
+    url: /paginas/bruno_filho/bruno_filho.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Henrique Sávio Silva Pacheco
+    image: /assets/paginas/henrique_pacheco/foto.jpg
+    url: /paginas/henrique_pacheco/henrique_pacheco.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Igor Lucas Balbino da Silva
+    image: /assets/paginas/igor_silva/foto.jpg
+    url: /paginas/igor_silva/igor_silva.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Jean Felipe Coelho Ferreira
+    image: /assets/paginas/jean_ferreira/foto.jpg
+    url: /paginas/jean_ferreira/jean_ferreira.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Juan Caio Marques de Lira
+    image: /assets/paginas/juan_lira/foto.jpg
+    url: /paginas/juan_lira/juran_lira.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Mário Stela Guerra
+    image: /assets/paginas/mario_guerra/foto.jpg
+    url: /paginas/mario_guerra/mario_guerra.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada
+  - name: Vítor Felipe Gomes Cavalcanti
+    image: /assets/paginas/vitor_cavalcanti/foto.jpg
+    url: /paginas/vitor_cavalcanti/vitor_cavalcanti.html
+    bio: Pesquisador do Time Visão.
+    area: Inteligência Artificial e Computação Aplicada

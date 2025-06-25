@@ -5,23 +5,109 @@ search: false
 
 @charset "utf-8";
 
-$masthead-link-color: #06402b; 
-// $background-color: gray;
+// Variáveis do tema podem ser sobrescritas ANTES dos imports
+$masthead-link-color: #b0fe76;
+$background-color: #2d3047;
+$text-color: #f0f0f0;
 
-bibtex { display: none; }	    
-h1.header {margin-left:8px;}
-h1.YEAR { font-size: 17px; font-weight: bold; display: inline; margin-left:8px;}
+// Importações do tema
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes";
 
-.researcher-content img {
-    width: 20%;
-    height: auto; /* This maintains the aspect ratio of the image */
+// Seu CSS customizado DEVE vir por último
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
 }
 
-@media (max-width: 768px) {
-    .markdown-content img, .specific-page img {
-        width: 50%; /* Adjusts to a larger percentage on smaller screens */
-    }
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.875rem;  // 18px
+  line-height: 1.75;
+  margin-bottom: 1.2em;
 }
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #b0fe76;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #d2ff9c;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #b0fe76;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.page__footer {
+  display: none !important;
+}
+
+.custom-footer {
+  background-color: #1f2233;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.55rem;
+}
+
+.custom-footer a {
+  color: #b0fe76;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  color: #d2ff9c;
+  text-decoration: underline;
+}
+
+.custom-footer i {
+  margin-right: 0.3em;
+}
+
+
+.project-link {
+  background-color: #1f2233 !important;
+  color: #b0fe76 !important;
+}
+
+.project-link a {
+  color: #b0fe76 !important;
+  text-decoration: none;
+}
+
+.project-link a:hover {
+  color: #d2ff9c !important;
+  text-decoration: underline;
+}
+
+
+/* Remove limitações do tema */
+.page {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Container centralizado mais largo */
+.page__content {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+

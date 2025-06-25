@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    <!-- Fontes personalizadas -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome (caso não esteja vindo do tema) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+
+
+  </head>
+
+  <body>
+    {% include skip-links.html %}
+    {% include masthead.html %}
+
+    <main id="main" class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer custom-footer">
+      <div class="footer__links">
+        <a href="https://github.com/Timevisaoupe" target="_blank">
+          <i class="fab fa-fw fa-github"></i> GitHub
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://www.instagram.com/timevisaoupe/" target="_blank">
+          <i class="fab fa-fw fa-instagram"></i> Instagram
+        </a>
+      </div>
+      <div class="site-footer__end">
+        © {{ site.time | date: "%Y" }} <strong>Time Visão</strong>. Todos os direitos reservados.
+      </div>
+    </footer>
+    {% include scripts.html %}
+
+  </body>
+
+
+</html>

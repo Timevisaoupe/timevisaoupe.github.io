@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Time Visao
+title: Sobre nós
 permalink: /timevisao/
 ---
 

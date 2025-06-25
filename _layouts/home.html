@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<!-- IMAGEM DO TIME -->
+<div class="home-header" style="text-align: center; margin-bottom: 3rem; margin-top: 1.5rem;">
+  {% if page.header.image %}
+    <img src="{{ page.header.image }}" alt="Banner" style="max-width: 100%; border-radius: 1rem;">
+    {% if page.header.caption %}
+      <p style="font-size: 0.8rem; color: #ccc;">{{ page.header.caption }}</p>
+    {% endif %}
+  {% endif %}
+</div>
+
+<!-- QUEM SOMOS -->
+<div class="home-section" style="padding: 2rem;">
+  <h2 style="color: #b0fe76; text-align: center;">Quem somos</h2>
+  <p style="color: #f0f0f0; max-width: 800px; margin: 0 auto; text-align: justify;">
+    O <strong>Time Visão</strong> é um grupo de pesquisa da Universidade de Pernambuco dedicado ao avanço da Inteligência Artificial com foco em Visão Computacional, Aprendizado de Máquina, Robótica e Aplicações Industriais. Trabalhamos na fronteira da inovação, unindo ciência, indústria e formação de talentos.
+  </p>
+  <div style="text-align: center; margin-top: 1rem;">
+    <a href="/sobre/" style="color: #b0fe76; text-decoration: underline;">Conheça mais →</a>
+  </div>
+</div>
+
+<!-- ÁREAS DE ATUAÇÃO -->
+<div class="home-section" style="padding: 2rem;">
+  <h2 style="color: #b0fe76; text-align: center;">Áreas de Atuação</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 1rem;">
+    {% assign areas = "Visão Computacional, Aprendizado de Máquina, Robótica, IA Distribuída, Processamento de Vídeo, Reconhecimento Facial" | split: ", " %}
+    {% for area in areas %}
+    <span style="background: #1f2233; color: #b0fe76; padding: 0.5rem 1rem; border-radius: 2rem; font-size: 0.85rem;">
+      {{ area }}
+    </span>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- ÚLTIMAS NOVIDADES -->
+<div class="home-section" style="padding: 2rem;">
+  <h2 style="color: #b0fe76; text-align: center;">Últimas Novidades</h2>
+  <div class="posts-grid" style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+    {% for post in site.posts limit: 3 %}
+    <div class="post-card" style="width: 300px; background-color: #1f2233; border-radius: 1rem; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }}" style="width: 100%; height: 160px; object-fit: cover;">
+      {% endif %}
+      <div style="padding: 1rem;">
+        <h3 style="font-size: 1rem; color: #b0fe76; margin: 0 0 0.5rem;">
+          <a href="{{ post.url }}" style="text-decoration: none; color: #b0fe76;">{{ post.title }}</a>
+        </h3>
+        <p style="font-size: 0.75rem; color: #aaa; margin-bottom: 0.5rem;">{{ post.date | date: "%d/%m/%Y" }}</p>
+        <p style="font-size: 0.85rem; color: #f0f0f0;">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div style="text-align: center; margin-top: 1rem;">
+    <a href="/novidades/" style="color: #b0fe76;">Ver todas as notícias →</a>
+  </div>
+</div>
+
+<!-- PROJETOS EM DESTAQUE -->
+<div class="home-section" style="padding: 2rem;">
+  <h2 style="color: #b0fe76; text-align: center;">Projetos em Destaque</h2>
+  <div class="projects-container" style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+    {% for project in site.data.projects limit: 3 %}
+    <a href="{{ project.url }}" style="text-decoration: none; width: 280px;">
+      <div class="project" style="background-color: #1f2233; border-radius: 1rem; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <img src="{{ project.image }}" alt="{{ project.name }}" style="width: 100%; height: 160px; object-fit: cover;">
+        <div style="padding: 1rem; color: #b0fe76; text-align: center;">{{ project.name }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <div style="text-align: center; margin-top: 1rem;">
+    <a href="/projetos/" style="color: #b0fe76;">Ver todos os projetos →</a>
+  </div>
+</div>

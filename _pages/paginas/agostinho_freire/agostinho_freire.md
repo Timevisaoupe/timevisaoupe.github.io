@@ -1,11 +1,11 @@
 ---
 title: Agostinho Antônio Freire Júnior 
 layout: single
-permalink: /paginas/agostinho_junior/agostinho_junior.html
+permalink: /paginas/agostinho_freire/agostinho_freire.html
 ---
-!["Agostinho Antônio Freire Júnior"](/assets/paginas/agostinho_junior/foto.jpg){: width="250" }
+!["Agostinho Antônio Freire Júnior"](/assets/paginas/agostinho_freire/foto.jpg){: width="250" }
 
-**E-mail**: email @ ecomp.poli.br
+**E-mail**: aafj@ecomp.poli.br
 
 **LinkedIn**: [Profile](link aqui){:target="_blank"} 
 
