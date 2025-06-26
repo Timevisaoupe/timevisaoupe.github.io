@@ -3,16 +3,16 @@ title: Lucas Matheus da Silva Oliveira
 layout: researcher
 permalink: /paginas/lucas_matheus/lucas_matheus.html
 image: /assets/paginas/lucas_matheus/foto.jpg
-email: lhss@ecomp.poli.br
-linkedin: https://www.linkedin.com/in/seu-link
-lattes: https://lattes.cnpq.br/seu-id
+email: lmso@ecomp.poli.br
+linkedin: https://www.linkedin.com/in/lucas-oliveira-67620018a/
+lattes: http://lattes.cnpq.br/4395507396971394
 scholar: https://scholar.google.com/citations?user=seu-id
 ---
 
 ## Projetos em Andamento
 
 ### Nome do Projeto
-**Período:** Março de 2024 – presente  
+**Período:** Agosto de 2024 – presente  
 [Website do projeto](https://site-do-projeto.com){:target="_blank"}  
 
 Breve descrição do projeto...
